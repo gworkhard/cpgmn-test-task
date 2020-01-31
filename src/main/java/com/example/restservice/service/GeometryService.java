@@ -3,11 +3,7 @@ package com.example.restservice.service;
 import com.example.restservice.domain.Geometry;
 import com.example.restservice.domain.Project;
 import com.example.restservice.repos.GeometryRepo;
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.jpa.provider.HibernateUtils;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
